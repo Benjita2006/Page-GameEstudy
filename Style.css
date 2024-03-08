@@ -1,0 +1,67 @@
+body {
+  background-image: url("https://www.pockettactics.com/wp-content/sites/pockettactics/2023/05/blasphemous-2-review-2.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: all;
+}
+.title {
+  margin: 0;
+  top: 20px;
+  color: red;
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/id/1352291000/es/vector/calavera-y-patr%C3%B3n-de-rosas-sin-costuras-ilustraci%C3%B3n-vectorial-dibujada-a-mano-plantilla-de.jpg?s=1024x1024&w=is&k=20&c=XZny_H3IDlTvMqBj_0EQ-AKXJs-fUc0o-Js-snF08vw=");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: center;
+}
+.center {
+  text-align: center;
+}
+.red {
+  background-color: red;
+  background-size: contain;
+}
+.blue {
+  background-color: rgb(0, 0, 255);
+}
+.life-barBlue {
+  background-color: rgb(0, 0, 255);
+  flex: 1;
+  text-align: right;
+}
+.life-barRed {
+  background-color: red;
+  text-align: left;
+  flex: 1;
+}
+.player {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 124px;
+  height: 124px;
+  text-align: center;
+  transition: all 0.3s;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#player-1 {
+  background-image: url("https://i.pinimg.com/originals/99/57/aa/9957aa036508916789fd952ffbb19670.gif");
+}
+#player-2 {
+  background-image: url("https://static.wikia.nocookie.net/fighunter/images/f/f9/Scorpion.gif/revision/latest/thumbnail/width/360/height/360?cb=20110809045751");
+}
+
+.life {
+  display: flex;
+  gap: 100px;
+}
+
+.bar {
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.5), 0px 10px 30px black,
+    0px 0px 30px cyan;
+  padding: 0px 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
